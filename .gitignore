@@ -1,0 +1,91 @@
+# -----------------------------------------
+# PYTHON
+# -----------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# -----------------------------------------
+# ENTORNO VIRTUAL (nombre: entorno)
+# -----------------------------------------
+entorno/
+
+# Otros nombres comunes de entornos virtuales (por si acaso)
+venv/
+.env/
+.env.bak/
+venv.bak/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# -----------------------------------------
+# CONFIG / CREDENCIALES
+# -----------------------------------------
+.env
+.env.local
+.env.development
+.env.production
+secrets.json
+
+# -----------------------------------------
+# JUPYTER NOTEBOOKS
+# -----------------------------------------
+.ipynb_checkpoints/
+
+# -----------------------------------------
+# COMPILACIÓN / DISTRIBUCIÓN
+# -----------------------------------------
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# -----------------------------------------
+# LOGS
+# -----------------------------------------
+*.log
+logs/
+*.out
+
+# -----------------------------------------
+# EDITORES / SISTEMA
+# -----------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------
+# TESTING
+# -----------------------------------------
+.pytest_cache/
+coverage.xml
+htmlcov/
+.coverage
+.coverage.*
+
+# -----------------------------------------
+# OTROS
+# -----------------------------------------
+*.tmp
+*.bak
+*.swp
