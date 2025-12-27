@@ -90,3 +90,4 @@ wordcloud==1.9.4
 ydata-profiling==4.17.0
 scikit-learn==1.7.2
 xlrd==2.0.2
+shiny==1.5.1
